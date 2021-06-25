@@ -1,0 +1,130 @@
+html,
+body {
+  background-color: #191919;
+  font-family: "Playfair Display", serif;
+  color: #ffffff;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.h-5 {
+  height: 5% !important;
+}
+
+.h-90 {
+  height: 90% !important;
+}
+
+.h-95 {
+  height: 95% !important;
+}
+
+.text-muted {
+  color: #898989 !important;
+}
+
+.row a {
+  color: #808080 !important;
+}
+
+.row a:hover,
+.row a.active {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.menu-item-1,
+.menu-item-2,
+.menu-item-3,
+.menu-item-4 {
+  position: relative;
+}
+
+.menu-item-1 {
+  margin-left: -70px;
+}
+
+.menu-item-2 {
+  top: -10px;
+}
+
+.menu-item-3 {
+  top: -25px;
+  margin-left: -10px;
+}
+
+.menu-item-4 {
+  top: -40px;
+  margin-right: -185px;
+}
+
+.menu-items-scroll-x {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.menu-items-scroll-x::-webkit-scrollbar {
+  background-color: transparent;
+  height: 7px;
+}
+
+.menu-items-scroll-x::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #808080;
+}
+
+.artwork-img {
+  display: inline-flex;
+  width: 130px;
+  height: 500px;
+}
+
+.artwork-img.one {
+  background: url("/img/artwork/1.PNG") no-repeat;
+  background-size: cover;
+  background-position-x: -150px;
+}
+
+.artwork-img.two {
+  background: url("/img/artwork/2.PNG") no-repeat;
+  background-size: cover;
+  background-position-x: -200px;
+}
+
+.artwork-img.three {
+  background: url("/img/artwork/3.PNG") no-repeat;
+  background-size: cover;
+  background-position-x: -180px;
+}
+
+.artwork-img.four {
+  background: url("/img/artwork/4.PNG") no-repeat;
+  background-size: cover;
+  background-position-x: -140px;
+}
+
+.artwork-img.five {
+  background: url("/img/artwork/5.PNG") no-repeat;
+  background-size: cover;
+  background-position-x: -130px;
+}
+
+.artwork-img.six {
+  background: url("/img/artwork/6.PNG") no-repeat;
+  background-size: cover;
+  background-position-x: -600px;
+}
+
+.close-btn {
+  cursor: pointer;
+}
+
+.display-6 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
